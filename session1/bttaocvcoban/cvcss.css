@@ -1,0 +1,27 @@
+body {
+	font-family: arial,helvetica, sans-serif;
+	font-size: 82.5%;
+	width: 500px;
+	margin: 0 auto;
+	padding: 1em;
+	border:  1px solid navy;
+}
+img {
+	height: 160px;
+	width: 160px;
+	float: left;
+	margin:  0 1em;
+}
+h1{
+	text-align: center;
+}
+.name {
+	font-size: 200%;
+	margin-bottom: 2px;
+}
+.job {
+	font-style: bold;
+	font-size: 150%;
+	color: lightblue;
+	margin-top: 2px;
+}

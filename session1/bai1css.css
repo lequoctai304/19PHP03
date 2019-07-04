@@ -1,0 +1,28 @@
+body {
+	font-family: arial,helvetica, sans-serif;
+	font-size: 82.5%;
+	width: 500px;
+	margin: 0 auto;
+	padding: 1em;
+	border:  1px solid navy;
+}
+img {
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin:  0 1em;
+}
+h1 {
+	color: navy;
+	margin: 0;
+	font-size: 250%;
+	padding: .25em;
+}
+.mau1 {
+	color: blue;
+}
+.mau2{
+	margin: 0;
+	padding-bottom: .5em;
+	color: red;
+}
