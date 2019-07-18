@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.demo2{
+	color: #FF6F35;
+	font-size: 2em;
+	margin-left: 2em;
+	font-family: myNeolionFont;
+	text-indent: 30px;/*thut vo dau hang*/
+	/*in hoa cả đoạn*/
+	text-transform: uppercase;
+	/*chữ thường cả đoạn*/
+	text-transform: lowercase;
+	/*chữ gạch ngang*/
+	text-decoration-line: line-through;
+	
+
+}
+body{
+	background-color: #F6CEBF;
+}
+/*dinh nghia font*/
+@font-face {
+	font-family: myNeolionFont;
+	src: url(C:/Users/PC/AppData/Local/Microsoft/Windows/Fonts/VNARIS.TTF) ;
+}

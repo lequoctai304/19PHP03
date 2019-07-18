@@ -1,0 +1,20 @@
+#demo {
+	width: 300px;
+	height: 400px;
+	border: 2px solid red;
+	background-color: lightblue;
+}
+img {
+	height: 30%;
+	width: 30%;
+	margin: auto;
+	display: block;
+}
+h1 {
+	text-align: center;
+
+}
+a {
+	text-align: center;
+	margin: 0 auto;
+}
