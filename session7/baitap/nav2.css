@@ -22,6 +22,9 @@
 	text-align: center;
 	margin: 2px;
 }
+#nav__bar ul li a.aa {
+	color: yellow;
+}
 #nav__bar ul li a:hover {
 	color: yellow;
 }
