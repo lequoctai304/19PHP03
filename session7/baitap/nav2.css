@@ -1,0 +1,27 @@
+/** {
+	margin: 0;
+	padding: 0;
+}*/
+#nav__bar ul {
+	list-style-type: none;
+	margin-left: 50px;
+	margin-top:  50px;
+}
+#nav__bar ul li {
+	float: left;
+	background-color: blue;
+}
+#nav__bar ul li a {
+	display: block;
+	width: 200px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border: 2px solid white;
+	padding: 1em 0;
+	text-align: center;
+	margin: 2px;
+}
+#nav__bar ul li a:hover {
+	color: yellow;
+}

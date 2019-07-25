@@ -1,0 +1,16 @@
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;	
+}
+td, th {
+	border: 1px solid black;
+}
+thead, tfoot {
+	background-color: lightblue;
+}
+td {
+	background-color: pink
+}
