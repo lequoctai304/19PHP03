@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: linear-gradient(to bottom, white,#FACE85)
+}
+@font-face {
+	font-family: myFantasyfont;
+	src :url(../btss5/hlfants1.ttf);
+}
+.container {
+	width: 95%;
+	height: 100%;
+	margin: 10px auto;
+	border: 2px solid;
+	border-radius: 30px;
+	box-shadow: 5px 8px black;
+	background-color: white;
+}
+.r-content {
+	width: 40%;
+	float: left;
+	margin:50px 0 0 20px;
+}
+.l-content{
+	width: 55%;
+	float: left;
+	height: 100%;
+	border-right: 2px solid orange;
+	padding-right: 20px;
+	margin-top: 20px;
+}
+
+.logo {
+	float: left;
+/*	margin-left: 10px;*/
+	width: 100px;
+	height: 100px;
+}
+h1 {
+	color: orange;
+	text-shadow: 1px 1px brown;
+	margin: 20px 0 0 150px;
+	font-family: myFantasyfont;
+}
+.h2-header {
+	color: green;
+	margin: 20px 0 0 150px;
+	font-style: italic;
+}
+#nav {
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	border-bottom: 2px solid orange;
+}
+.menu-list ul li {
+	list-style-type: none;
+	float: left;
+	border-right: 2px solid black;
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 20px;
+	margin: 10px 0 0 20px;
+}
+.menu-list ul li a{
+	color: green;
+}
+.menu-list ul li a:hover{
+	color: orange;
+}
+
+#h2-content {
+	margin: 30px 0px 20px 0;
+	font-size: 40px;
+}
+.content1 ul li {
+	margin: 10px 0 0 20px;
+}
+.content1 ul li a.hover1:hover {
+	background-color: grey;
+	font-size: 30px;
+}
+.content1 ul li a.hover2:hover {
+	background-color: red;
+	font-size: 30px;
+}
+.content1 ul li a.hover3:hover {
+	color: green;
+	font-size: 30px;
+	font-family: myfantasyfont;
+}
+h3 {
+	margin: 20px 0 20px 0;
+}
+/*.d1 {
+	margin-left: 10px;
+}*/
+#d2 {
+	text-indent: 30px;
+	margin: 10px 0 10px 0;
+}
+#d3 {
+	font-weight: bold;
+	font-size: 20px;
+/*	margin-left: 10px;*/
+}
+#d4 {
+	margin: 10px 0 10px 0;
+}
+#d5 {
+	text-align: right; 
+	/*dùng float right sẽ bị đẩy thẻ ra ngoài*/
+	font-size: 12px;
+	margin-right: 20px;
+}
+#d5 {
+	margin-top: 10px;
+}
+#header {
+	border-bottom: 2px solid orange;
+	width: 90%;
+	height: 120px;
+	margin: 0 auto;
+}
+#content {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	height: 500px;
+}
+#footer {
+	width: 90%;
+	margin: 20px auto 10px auto;
+	border-top: 2px solid orange;
+/*	float: left;*/
+/*	padding-top: 1px; lưu ý margin*
+	background-color: lightblue;*/
+}
+.h3-review {
+	color: green;
+}
+/*.poster1 {
+	margin: 10px auto;
+	width: 300px;
+	text-align: center;
+}*/
+.poster {
+	height: 270px;
+	width: 280px;
+	margin: 10px 0 0 110px;
+}
+.p-poster {
+	margin:5px 0 0 140px;
+	font-style: italic;
+}

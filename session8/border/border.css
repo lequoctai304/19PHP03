@@ -1,0 +1,24 @@
+
+.b1 {
+	width: 200px;
+	height: 200px;
+	border: 2px solid green;
+	margin-bottom: 10px; 
+	border-radius: 10px 0px 30px 30px;
+	background-image: linear-gradient(to right, green , lightgreen,white);
+}
+.b2 {
+	width: 200px;
+	height: 200px;
+	border: 2px solid green;
+	border-radius: 30%;
+	box-shadow: 5px 8px lightgreen;
+	text-align: center;
+	background-image: url(ricardo.jpg); 
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+}
+p{
+	margin: 50% auto;
+	color: white;
+}
