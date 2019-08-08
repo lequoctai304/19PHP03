@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bai tap Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="baitapform.css">
+    <meta name="description" content="Bai tap">
+</head>
+
+<body>
+    <div id="content" class="container">
+        <div id="login">
+            <form name="login" action="#" method="POST">
+                <p id="lg">
+                    LOGIN
+                </p>
+                <fieldset>
+                    <p>Username or email address<span style="color: red">*</span>
+                        <br>
+                        <input type="text" id="tb" name="username">
+                        </br>
+                    </p>
+                    <p>Password<span style="color: red">*</span>
+                        <br>
+                        <input type="password" id="tb" name="password">
+                        </br>
+                    </p>
+                    <p>
+                        <input type="submit" id="btlg" name="login" value="LOGIN">
+                        <input type="checkbox" name="savepass"> Remember me
+                    </p>
+                    <p>
+                        <a href="#">Lost your password?</a>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        <!-- -->
+        <div id="register">
+            <form name="register" action="#" method="POST">
+                <p id="rgt">
+                    REGISTER
+                </p>
+                <fieldset>
+                    <p>Phone
+                        <br>
+                        <input type="number" id="tb" name="phone">
+                        </br>
+                    </p>
+                    <div id="fname">
+                        <label>Firstname<span style="color: red">*</span></label>
+                        <br>
+                        <input type="text" id="tb1" />
+                        </br>
+
+                    </div>
+                    <div id="lname">
+                        <label>Lastname<span style="color: red">*</span> </label>
+                        <br>
+                        <input type="text" id="tb2" />
+                        </br>
+
+                    </div>
+                    <div id="div3">
+                        <p>Email address<span style="color: red">*</span>
+                            <br>
+                            <input type="text" id="tb" name="email">
+                            </br>
+                        </p>
+                        <p>Password<span style="color: red">*</span>
+                            <br>
+                            <input type="password" id="tb" name="pass">
+                            </br>
+                        </p>
+                        <p>
+                            <input type="submit" id="btrg" name="register" value="Register" disabled="disable">
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

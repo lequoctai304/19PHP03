@@ -1,0 +1,52 @@
+.container{
+	width: 100%;
+}
+#login{
+	width: 300px;
+	float:left;
+}
+#register{
+	width: 300px;
+	float: left;
+	margin-left: 20px;
+}
+#fname{
+	width: 45%;
+	float: left;
+}
+#lname{
+	width: 45%;
+	float: left;
+	margin-left: 26px;
+}
+#div3{
+	margin-top: 5em;
+}
+#lg{
+	font-size: 20px;
+	font-weight: bold;
+}
+#rgt{
+	font-size: 20px;
+	font-weight: bold;
+}
+#btlg{
+	font-weight: bold;
+	font-size: 15px;
+}
+#btrg{
+	font-weight: bold;
+	font-size: 15px;
+}
+#tb{
+	width: 100%;
+	height: 20px;
+}
+#tb1{
+	width: 95%;
+	height: 20px;
+}
+#tb2{
+	width: 100%;
+	height: 20px;
+}
